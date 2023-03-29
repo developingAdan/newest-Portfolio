@@ -8,6 +8,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+* {
+  border: none !important;
+}
+
 body {
   font-family: "Inconsolata", monospace;
   color: #0d1e2d;
@@ -205,6 +210,10 @@ h6,
   background: #000;
 }
 
+.testimonials-slider {
+  /* border: 2px solid red !important; */
+}
+
 .testimonials-slider .swiper-pagination {
   margin-top: -60px;
   position: relative;
@@ -305,6 +314,7 @@ h6,
 .services .container {
   border: 2px solid blue;
   justify-content: space-evenly;
+  background-color: #eceff2;
 }
 
 .services i {
