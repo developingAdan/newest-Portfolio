@@ -317,6 +317,11 @@ h6,
   background-color: #eceff2;
 }
 
+.techStackContainer {
+  border: 2px solid green;
+  margin-top: 20px
+}
+
 .services i {
   font-size: 40px;
 }
@@ -331,13 +336,19 @@ h6,
 }
 
 .servicesContainer {
-  border: 2px solid red;
+  border: 2px solid green;
   width: 60%;
+  margin-top: 20px;
 }
 
 .services .para-container {
   border: 2px solid blue;
 }
+
+/* .techStackContainer {
+  border: 2px solid orange;
+  margin-top: 50px !important;
+} */
 
  /* .no-gutter {
   border: 2px solid red;
