@@ -140,6 +140,10 @@ h6 {
   #main {
     margin-left: 100px;
   }
+
+  /* img {
+    width: 10%;
+  } */
 }
 
 /*--------------------------------------------------------------
@@ -348,6 +352,22 @@ h6 {
     line-height: 24px;
   }
 }
+
+.about-container {
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+}
+
+/* .image-container {
+  border: 2px solid blue;
+  width: 50%;
+} */
+
+/* .info-container {
+  border: 2px solid green;
+  width: 50%;
+} */
 
 /*--------------------------------------------------------------
 # Sections General
@@ -794,6 +814,27 @@ section {
   padding: 0;
 }
 
+.clients-slider * img {
+  width: 10%;
+}
+
+.proj-container {
+
+  border-top: 1px solid lightgray;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.stack-container > h1 {
+  border: 2px solid red;
+  font-size: 20px;
+}
+
+.reference_links {
+  border: 2px solid red;
+  text-align: center;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -827,6 +868,7 @@ section {
   top: 0;
   left: 0;
 }
+
 
 .services .icon-box .icon svg path {
   transition: 0.5s;
