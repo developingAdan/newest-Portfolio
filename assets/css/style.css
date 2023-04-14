@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 * {
-  border: none !important;
+  /* border: none !important; */
 }
 
 body {
@@ -132,13 +132,13 @@ h6 {
   }
 
   .about-container {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
   }
 
   .image-container {
-    border: 2px solid green;
+    /* border: 2px solid green; */
   }
   
 }
@@ -283,7 +283,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  /* background: url("../img/hero-bg.jpg") top right no-repeat; */
+  background: url("https://img.freepik.com/premium-photo/aesthetic-minimalist-home-office-desk-workspace-white-background-with-blank-copy-space-notes-sheet-laptop-computer-tablet-pad-stationery-business-work-concept-blog-website-social-media_408798-9580.jpg?w=2000") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -371,10 +371,15 @@ h6 {
   justify-content: center;
 }
 
+.image-container img {
+  border-radius: 4%;
+}
+
 .info-container {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 50%;
   align-items: center;
+  margin-top: 32px;
 }
 
 /* @media (max-width: 991px) {
@@ -861,29 +866,43 @@ section {
   padding-top: 20px;
 }
 
-/* .proj-img-container {
+.proj-img-container {
   border: 2px solid purple;
-  display: flex;
-  justify-content: center;
-} */
+  margin: auto 0;
+}
+
+.proj-img-cont-container {
+  border: 2px solid red;
+} 
+
+.p-i-c {
+  border: 2px solid blue;
+}
+
+.p-i-c-2 {
+  border: 2px solid green;
+  margin: auto 0;
+}
 
 .proj-images {
-  border: 2px solid red;
-  width: 90%;
-  justify-content: center;
+  /* border: 2px solid red; */
+  width: 100%;
+  /* justify-content: center; */
+  border-radius: 2%;
 }
 
 
 @media (max-width: 991px) {
 
   .proj-img-container {
-    border: 2px solid burlywood;
+    /* border: 2px solid burlywood; */
     display: flex !important;
     justify-content: center;
+    margin: 0;
   }
 
   .proj-images {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 65%;
     display: flex;
     /* justify-content: center; */
@@ -891,13 +910,27 @@ section {
 }
 
 .stack-container > h1 {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   font-size: 20px;
 }
 
 .reference_links {
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  margin-top: 20px;
   text-align: center;
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.reference_links a {
+  /* border: 2px solid red; */
+  background-color: #990f02;
+  color: white;
+  width: 25%;
+  border-radius: 5%;
 }
 
 /*--------------------------------------------------------------
@@ -1131,7 +1164,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #eef7ff;
+  background: #FFE9E7;
   display: flex;
   justify-content: center;
   align-items: center;
