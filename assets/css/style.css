@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 * {
-  border: none !important;
+  /* border: none !important; */
 }
 
 body {
@@ -109,7 +109,7 @@ h6 {
   }
 
   .about-container {
-    border: 2px solid red;
+    border: 2px solid blue;
   }
   
   .image-container {
@@ -493,7 +493,7 @@ section {
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 700;
-  font-size: 26px;
+  font-size: 1.4rem;
   color: #728394;
 }
 
@@ -525,7 +525,7 @@ section {
 
 .content {
   border: 2px solid red;
-  margin: auto 0;
+  /* margin: auto 0; */
 }
 
 @media (max-width: 991px) {
