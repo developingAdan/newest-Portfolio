@@ -1075,6 +1075,20 @@ section {
 .contact .info {
   width: 100%;
   background: #fff;
+  outline: blue 2px solid;
+}
+
+.contact {
+  /* outline: blue 2px solid; */
+}
+
+.form-box {
+  /* outline: red 2px solid; */
+  margin: 0 auto;
+}
+
+.form-control {
+  background-color: rgb(236, 236, 236);
 }
 
 .contact .info i {
