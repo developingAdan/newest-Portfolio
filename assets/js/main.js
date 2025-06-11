@@ -267,4 +267,20 @@
    */
   new PureCounter();
 
+  const toggleButton = document.getElementById('toggleProjectsButton');
+  const personalProjectsSection = document.getElementById('personalProjectsSection');
+  const clientProjectsSection = document.getElementById('clientProjectsSection');
+
+  toggleButton.addEventListener('click', function () {
+    if (personalProjectsSection.classList.contains('active')) {
+      personalProjectsSection.classList.remove('active');
+      clientProjectsSection.classList.add('active');
+      toggleButton.textContent = 'Show Personal Projects';
+    } else {
+      personalProjectsSection.classList.add('active');
+      clientProjectsSection.classList.remove('active');
+      toggleButton.textContent = 'Show Client Projects';
+    }
+  });
+
 })()

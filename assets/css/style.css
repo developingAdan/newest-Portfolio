@@ -1220,6 +1220,46 @@ section {
   }
 }
 
+
+.text-center {
+  margin-top: 20px;
+  /* background-color: #990f02; */
+}
+
+.submit_button {
+  background-color: #990f02;
+  color: white;
+  padding: 6px 8px;
+  border-radius: 6px;
+
+}
+
+
+
+.toggleProjectsBtn {
+  background-color: #990f02;
+  color: white;
+  border-radius: 8px;
+  padding: 8px;
+
+}
+
+
+
+.projects-section {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 1.5s ease, max-height 1.5s ease;
+}
+
+.projects-section.active {
+  opacity: 1;
+  max-height: 1000px; /* Adjust if you have a longer section */
+}
+
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
