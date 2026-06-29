@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\\\.\\(html|php|js|json|css|env|htaccess|config\\)$\")",
+      "Bash(grep -E \"http|//\")",
+      "Bash(grep -rn '$_SERVER\\\\|$_ENV\\\\|getenv' /c/Users/adang/OneDrive/Desktop/Web_Development/My_Portfolio/v3 '--include=*.php')"
+    ]
+  }
+}
